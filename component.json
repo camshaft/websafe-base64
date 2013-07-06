@@ -1,0 +1,18 @@
+{
+  "name": "websafe-base64",
+  "repo": "CamShaft/websafe-base64",
+  "description": "Encode/decode websafe base64",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "ForbesLindesay/base64-encode": "*",
+    "ForbesLindesay/base64-decode": "*",
+    "component/pad": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
