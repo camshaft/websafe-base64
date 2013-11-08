@@ -36,6 +36,7 @@ exports.decode = function(string) {
     ? base64decode(padString(string)
       .replace(/\-/, '+')
       .replace(/_/, '/'))
+      .replace(/\0/g, '')
     : '';
 };
 
