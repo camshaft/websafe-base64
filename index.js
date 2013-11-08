@@ -2,9 +2,9 @@
  * Module dependencies
  */
 
-var base64decode = require("base64-decode")
-  , base64encode = require("base64-encode")
-  , pad = require("pad");
+var base64decode = require('base64-decode');
+var base64encode = require('base64-encode');
+var pad = require('pad');
 
 /**
  * url-safe encode a string
@@ -57,5 +57,5 @@ function padString(string) {
   // See how much padding we need
   var rem = 4-mod;
 
-  return pad(string, rem, "=");
+  return pad(string, rem, '=');
 };
